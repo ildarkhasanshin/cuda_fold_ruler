@@ -4,7 +4,7 @@ from cudatext import *
 
 class Command:
     def get_fold_block(self, y):
-        for i, fold in enumerate(reversed(ed.folding(FOLDING_GET_LIST))):
+        for fold in reversed(ed.folding(FOLDING_GET_LIST)):
             fold_0 = fold[0]
             fold_1 = fold[1]
             if y >= fold_0 and y <= fold_1 and y != fold_0 and ((fold_1 - fold_0) > 1):
