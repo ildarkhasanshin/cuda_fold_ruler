@@ -4,6 +4,7 @@ desc=Show first line of the folding block, on the top in ruler.
 type=cudatext-plugin
 subdir=cuda_fold_ruler
 homepage=https://github.com/ildarkhasanshin/cuda_fold_ruler/
+api=1.0.439
 
 [item1]
 section=events
