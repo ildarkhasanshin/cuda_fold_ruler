@@ -8,4 +8,4 @@ api=1.0.439
 
 [item1]
 section=events
-events=on_caret_slow
+events=on_caret_slow,on_exit
