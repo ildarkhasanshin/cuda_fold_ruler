@@ -1,2 +1,6 @@
+2023.03.09
++ add: added command 'Config' in 'Options / Settings-plugins'
+* change: added option "lexers" - comma-separated list of lexers, which are allowed
+
 2023.03.07
 initial

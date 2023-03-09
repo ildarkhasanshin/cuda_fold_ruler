@@ -9,3 +9,9 @@ api=1.0.439
 [item1]
 section=events
 events=on_caret_slow,on_exit
+
+[item10]
+section=commands
+caption=Fold Ruler\Config
+method=config
+menu=o
