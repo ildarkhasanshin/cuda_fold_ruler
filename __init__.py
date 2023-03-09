@@ -21,7 +21,7 @@ class Command:
         ed.set_prop(PROP_RULER_TEXT, text)
 
     def ruler_restore(self):
-        self.ruler_set(self.before)
+        self.ruler_set(self.before or False)
 
     def get_fold_block(self, y):
         for fold in reversed(ed.folding(FOLDING_GET_LIST)):
