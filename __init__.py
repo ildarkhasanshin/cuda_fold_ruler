@@ -51,8 +51,7 @@ class Command:
 
         ini_write(FN_CONFIG, SECTION, 'lexers', self.lexers)
         file_open(FN_CONFIG)
-        with open(FN_CONFIG, mode='r', encoding='utf-8') as f:
-            lines = f.read().splitlines()
+        lines = [ed.get_text_line(i) for i in range(ed.get_line_count())]
 
         try:
             index = lines.index('['+SECTION+']')
